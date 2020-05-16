@@ -1,0 +1,72 @@
+
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:"Roboto", sans-serif;
+  background:#222222;
+  color:white;
+  font-size:25px;
+}
+
+
+h1{
+  letter-spacing: 10px;
+  margin-bottom: 15px;
+  font-family: "Roboto",sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+
+@media screen and (min-width: 360px) {
+  h1 {
+    font-size: 30px;
+  }
+  body{
+    font-size: 10px;
+  }
+  
+}
+/*  global classes */
+
+.btn {
+  color:#222;
+  padding: 5px 10px;
+  letter-spacing: 5px;
+  display: inline-block;
+  font-size: 15px;
+  border: 2px solid #222;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.btn:hover {
+  color: #222;
+  background: white;
+}
+.btn:focus{
+  outline: none;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  text-align: center;
+}
+#value {
+  font-size: 100px;
+  font-weight: bold;
+}
+.btn {
+  margin: 10px;
+}
